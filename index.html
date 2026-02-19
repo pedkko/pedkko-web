@@ -1,100 +1,54 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Socket.net </title>
-  <style>
-    body {
-      font-family: Cooper Black, sans-serif;
-      margin: 0;
-      background-color: #f4f4f9;
-      color: #333;
-    }
-    header {
-      background-color: #54079C;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    nav {
-      background-color: #18161A;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    section {
-      padding: 40px;
-      text-align: center;
-    }
-    .btn {
-      display: inline-block;
-      background-color: #54079C;
-      color: white;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 5px;
-      margin-top: 20px;
-    }
-    .btn:hover {
-      background-color: #2D2930;
-    }
-    footer {
-      background-color: #54079C;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Carta Michelin</title>
 </head>
 <body>
-<header style="position: relative; background-color: #54079C; color: white; padding: 20px; text-align: center;">
-  <img src="hola.png" alt="Logo Socket.net" 
-       style="height: 80px; position: absolute; left: 20px; top: 50%; transform: translateY(-50%);">
-  <h1 style="margin: 0;">Socket.net</h1>
-  <p style="margin: 0;">Conectando el futuro de las telecomunicaciones</p>
+<div id="login">
+    <div class="login-box">
+        <h2>Acceso privado</h2>
+        <input type="password" id="password" placeholder="Ingresa PIN">
+        <button onclick="checkPassword()">Entrar</button>
+        <p id="error"></p>
+    </div>
+</div>
+<div id="contenido" style="display:none;">
+    <h1>Te amo mucho ❤️</h1>
+    <div class="contenedor">
+        <div class="envoltura-sobre">
+            <div class="sobre">
+                <div class="carta">
+                    <div class="contenido">
+                        <strong>Querida Michelin</strong>
+                        <p>
+                            Desde que llegaste a mi vida, algo cambió dentro de mí. Sin darme cuenta, comenzaste a ocupar un lugar muy especial en mi corazón. Cada momento contigo se ha vuelto un recuerdo que atesoro, y cada sonrisa tuya es una razón más para agradecer que estés en mi camino.<br>
 
-</header>
+Me encanta la manera en que haces que todo sea más bonito, más fácil y más feliz. Contigo puedo ser yo mismo, sin miedos ni máscaras, y eso es algo que valoro profundamente.<br>
 
+Hoy quiero ser honesto contigo, porque lo que siento ha crecido tanto que ya no quiero guardarlo. No solo me gustas, me importas de una forma muy especial, y me encantaría poder construir algo más a tu lado.<br>
 
-  </header>
+Por eso quiero hacerte una pregunta que nace desde lo más sincero de mi corazón: ¿te gustaría que dejáramos de ser solo "casi nada" para convertirnos en novios? Me haría muy feliz poder compartir esta nueva etapa contigo, tomarnos de la mano y descubrir juntos todo lo que podemos llegar a ser.<br>
 
-  <nav>
-    <a href="#servicios">Servicios</a>
-    <a href="#nosotros">Nosotros</a>
-    <a href="#contacto">Contacto</a>
-  </nav>
+Sin importar tu respuesta, quiero que sepas que eres una persona increíble y que agradezco cada instante que hemos compartido.
 
-  <section id="servicios">
-    <h2>Servicios</h2>
-    <p>Ofrecemos soluciones de seguridad para su integridad. </p>
-    <a href="#contacto" class="btn">Solicita más información</a>
-  </section>
-
-  <section id="nosotros">
-    <h2>Sobre Socket.net</h2>
-    <p>Somos una empresa líder en telecomunicaciones, dedicada a brindar seguridad para mejorar su disponibilidad.</p>
-  </section>
-
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <p>📧 atencioncliente@socket.net</p>
-    <p>📞 +57 300 123 4567</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Socket.net - Todos los derechos reservados</p>
-  </footer>
+Con cariño,<br> Tu cuchuco enamorado. <br> Eres lo mejor que me ha pasado ☺☻♥
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="corazon"></div>
+            <div class="solapa-derecha"></div>
+            <div class="solapa-izquierda"></div>
+        </div>
+    </div>
+    </div>
+    <!-- <script src="script_v2.js"></script> -->
+     <script src="script_v2.js"></script>
 </body>
 </html>
